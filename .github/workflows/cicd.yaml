@@ -17,7 +17,7 @@ jobs: # jobs me that action/task you need to perform
       - name: Python Setup
         uses: actions/setup-python@v2
         with:
-          python-version: 3.11
+          python-version: 3.8
 
 # now istall dependencies
       - name: install  dependencies
@@ -39,7 +39,7 @@ jobs: # jobs me that action/task you need to perform
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "# Data Report " >> report.md
+          echo "# Dataset Report " >> report.md
           echo "## Bar Plot" >> report.md
           echo "![](./fruits_bar_plot.png "Bar plot")">> report.md
           echo "## line Plot" >> report.md
