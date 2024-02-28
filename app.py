@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Sample fruits data
 fruits = ['Apple', 'Banana', 'Orange', 'Grapes', 'Mango']
-quantities = [30, 50, 40, 25, 35]
+quantities = [33, 50, 40, 25, 35]
 
 # Create bar plot
 plt.figure(figsize=(8, 6))
