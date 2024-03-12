@@ -42,8 +42,8 @@ jobs: # jobs me that action/task you need to perform
           echo "# Dataset Report " >> report.md
           echo "## Bar Plot" >> report.md
           echo "![](./fruits_bar_plot.png "Bar plot")">> report.md
-          echo "## line Plot" >> report.md
-          echo "![](./fruits_line_plot.png "line plot")">> report.md
+          # echo "## line Plot" >> report.md
+          # echo "![](./fruits_line_plot.png "line plot")">> report.md
           
           cml comment Create report.md
 
